@@ -1,0 +1,3 @@
+This repository contains a simple Tcl procedure that demonstrates improper error handling. The `badproc` procedure checks if the input `x` is positive. If not, it uses the `error` command, which terminates execution immediately. This can lead to resource leaks or unexpected behavior in larger applications.
+
+The `bugSolution.tcl` file provides a more robust solution that uses `catch` to handle the error gracefully.
